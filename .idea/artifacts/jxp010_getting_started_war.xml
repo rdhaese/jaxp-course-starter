@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jxp010-getting-started:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="jxp010-getting-started.war">
+      <element id="artifact" artifact-name="jxp010-getting-started:war exploded" />
+    </root>
+  </artifact>
+</component>
