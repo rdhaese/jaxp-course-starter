@@ -1,6 +1,5 @@
 package com.realdolmen.jxp010;
 
-import org.apache.xalan.templates.OutputProperties;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -19,6 +18,9 @@ import java.io.IOException;
  * Created by RDEAX37 on 24/09/2015.
  */
 public class PomPrinterDom {
+
+    private static DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, TransformerException {
         Document doc = getDocument();
         addNewDependecy(doc);
@@ -48,9 +50,7 @@ public class PomPrinterDom {
     }
 
     private static Document getDocument() throws ParserConfigurationException, SAXException, IOException {
-        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
-
         return builder.parse("pom.xml");
     }
 
