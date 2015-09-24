@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="993e32e9-41cd-4c93-bf51-6077554b6fb0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/realdolmen/jxp010/PomPrinterDom.java" afterPath="$PROJECT_DIR$/src/main/java/com/realdolmen/jxp010/PomPrinterDom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/realdolmen/jxp010/PomPrinterJDom.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jxp010-getting-started.iws" />
@@ -87,12 +86,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.8611633">
-              <caret line="209" column="23" selection-start-line="209" selection-start-column="23" selection-end-line="209" selection-end-column="23" />
+            <state vertical-scroll-proportion="-0.5">
+              <caret line="1" column="49" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="49" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PomPrinterJDom.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/realdolmen/jxp010/PomPrinterJDom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40035275">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,16 +155,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movies.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/movies.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -182,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/realdolmen/jxp010/PomXMLHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/realdolmen/jxp010/PomPrinterDom.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/realdolmen/jxp010/PomPrinterJDom.java" />
       </list>
     </option>
   </component>
@@ -350,7 +352,7 @@
       <recent name="com.realdolmen.jxp010" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PomPrinterDom">
+  <component name="RunManager" selected="Application.PomPrinterJDom">
     <configuration default="false" name="MoviePrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -379,6 +381,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.realdolmen.jxp010.PomPrinterDom" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jxp010-getting-started" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PomPrinterJDom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.realdolmen.jxp010.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.realdolmen.jxp010.PomPrinterJDom" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -634,14 +656,16 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.MoviePrinter" />
       <item index="1" class="java.lang.String" itemvalue="Application.PomPrinterDom" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PomPrinterJDom" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.PomPrinterDom" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MoviePrinter" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.PomPrinterJDom" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PomPrinterDom" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MoviePrinter" />
       </list>
     </recent_temporary>
   </component>
@@ -652,12 +676,12 @@
       <created>1443079539854</created>
       <option name="number" value="Default" />
       <updated>1443079539854</updated>
-      <workItem from="1443079541201" duration="13806000" />
+      <workItem from="1443079541201" duration="15350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13806000" />
+    <option name="totallyTimeSpent" value="15350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="35" width="1918" height="1044" extended-state="0" />
@@ -861,9 +885,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8611633">
-          <caret line="209" column="23" selection-start-line="209" selection-start-column="23" selection-end-line="209" selection-end-column="23" />
+        <state vertical-scroll-proportion="-0.5">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/realdolmen/jxp010/PomPrinterJDom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40035275">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
